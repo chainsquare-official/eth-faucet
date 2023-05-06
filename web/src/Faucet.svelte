@@ -11,7 +11,7 @@
     payout: 1,
   };
 
-  $: document.title = `ETH ${capitalize(faucetInfo.network)} Faucet`;
+  $: document.title = `ETH Chainsqaure Aquila Rift Faucet`;
 
   onMount(async () => {
     const res = await fetch('/api/info');
